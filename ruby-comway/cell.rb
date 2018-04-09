@@ -1,4 +1,6 @@
 class Cell
+	attr_accessor :alive
+
   def initialize(alive) @alive = alive  end
   def alive?;           @alive          end
   def value;            @alive ? 1 : 0  end

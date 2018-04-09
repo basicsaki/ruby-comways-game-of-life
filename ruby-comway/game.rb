@@ -2,6 +2,8 @@ require_relative "./game_board.rb"
 require_relative "./cell.rb"
 
 class Game
+  attr_accessor :board
+
   def initialize(name, size, generations, initial_life=nil)
     @size = size
     @board = GameBoard.new size, initial_life
