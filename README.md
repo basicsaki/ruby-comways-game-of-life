@@ -14,7 +14,7 @@ The initial pattern constitutes the seed of the system. The first generation is 
     Output to run the code
     ruby main.rb matrix_values,max number of iterations,array of alive cell positions
     eg 
-	ruby main.rb 50,50,[[5,0],[5,1],[5,2],[2,1]]
+	ruby main.rb 50 50 [[5,0],[5,1],[5,2],[2,1]]
 	
 To run the tests 
 
